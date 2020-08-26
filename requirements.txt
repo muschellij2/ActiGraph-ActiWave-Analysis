@@ -14,3 +14,4 @@ resampy
 glob2
 psutil
 bitstring
+gt3x

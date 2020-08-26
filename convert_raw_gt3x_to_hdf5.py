@@ -16,7 +16,7 @@ from joblib import delayed
 	IMPORTED FUNCTIONS
 """
 from functions.helper_functions import set_start, set_end, delete_file, delete_directory
-from functions.gt3x_functions import unzip_gt3x_file, extract_info, extract_log
+from gt3x import unzip_gt3x_file, extract_info, extract_log
 from functions.hdf5_functions import get_all_subjects_hdf5, read_metadata_from_group, read_dataset_from_group, read_metadata_from_group_dataset, save_multi_data_to_group_hdf5, save_meta_data_to_group_dataset, save_data_to_group_hdf5
 
 """
